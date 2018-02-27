@@ -8,15 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		660E6EC3202B4D6E00216171 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E6EC2202B4D6E00216171 /* AppDelegate.swift */; };
-		660E6EC5202B4D6E00216171 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 660E6EC4202B4D6E00216171 /* GameScene.sks */; };
 		660E6EC7202B4D6E00216171 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 660E6EC6202B4D6E00216171 /* Actions.sks */; };
 		660E6EC9202B4D6E00216171 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E6EC8202B4D6E00216171 /* GameScene.swift */; };
 		660E6ECB202B4D6E00216171 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E6ECA202B4D6E00216171 /* GameViewController.swift */; };
-		660E6ECE202B4D6E00216171 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660E6ECC202B4D6E00216171 /* Main.storyboard */; };
 		660E6ED0202B4D6E00216171 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 660E6ECF202B4D6E00216171 /* Assets.xcassets */; };
 		660E6ED3202B4D6E00216171 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660E6ED1202B4D6E00216171 /* LaunchScreen.storyboard */; };
 		660E6EDE202B4D6E00216171 /* SuperPongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E6EDD202B4D6E00216171 /* SuperPongTests.swift */; };
 		660E6EE9202B4D6E00216171 /* SuperPongUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E6EE8202B4D6E00216171 /* SuperPongUITests.swift */; };
+		660E6EF7202B4FB600216171 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E6EF6202B4FB600216171 /* MenuViewController.swift */; };
+		660E6EFB202B503B00216171 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660E6EFA202B503B00216171 /* Main.storyboard */; };
+		660E6EFD202B507D00216171 /* LLPIXEL3.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 660E6EFC202B507D00216171 /* LLPIXEL3.ttf */; };
+		660E6F3B202B988A00216171 /* Blocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E6F3A202B988A00216171 /* Blocks.swift */; };
+		66748C9C202CC0FB0093FBA7 /* Zoom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 66748C9B202CC0FB0093FBA7 /* Zoom.mp3 */; };
+		66748CA2202CC2DF0093FBA7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 66748CA1202CC2DF0093FBA7 /* GameScene.sks */; };
+		84A38EC16D2439F7CDC98CD1 /* Pods_SuperPongUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 124C55723A7FDC5F17DC072A /* Pods_SuperPongUITests.framework */; };
+		A224F4EA81EA62FC77E8B0CE /* Pods_SuperPong.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8C63907A9FD22B9F01CA8E /* Pods_SuperPong.framework */; };
+		C34A74165A7A63B18305246C /* Pods_SuperPongTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD16937E49F3598F94DFED36 /* Pods_SuperPongTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		124C55723A7FDC5F17DC072A /* Pods_SuperPongUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperPongUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD70B16F84166E218B54A27 /* Pods-SuperPong.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperPong.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SuperPong/Pods-SuperPong.debug.xcconfig"; sourceTree = "<group>"; };
+		4B3D6DEC6861F1C2A3CA73E7 /* Pods-SuperPong.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperPong.release.xcconfig"; path = "Pods/Target Support Files/Pods-SuperPong/Pods-SuperPong.release.xcconfig"; sourceTree = "<group>"; };
+		4FA8AAC47AC6C5A1820845F9 /* Pods-SuperPongTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperPongTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SuperPongTests/Pods-SuperPongTests.debug.xcconfig"; sourceTree = "<group>"; };
 		660E6EBF202B4D6E00216171 /* SuperPong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperPong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		660E6EC2202B4D6E00216171 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		660E6EC4202B4D6E00216171 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		660E6EC6202B4D6E00216171 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		660E6EC8202B4D6E00216171 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		660E6ECA202B4D6E00216171 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		660E6ECD202B4D6E00216171 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		660E6ECF202B4D6E00216171 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		660E6ED2202B4D6E00216171 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		660E6ED4202B4D6E00216171 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,6 +62,17 @@
 		660E6EE4202B4D6E00216171 /* SuperPongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperPongUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		660E6EE8202B4D6E00216171 /* SuperPongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperPongUITests.swift; sourceTree = "<group>"; };
 		660E6EEA202B4D6E00216171 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		660E6EF6202B4FB600216171 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		660E6EFA202B503B00216171 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		660E6EFC202B507D00216171 /* LLPIXEL3.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LLPIXEL3.ttf; sourceTree = "<group>"; };
+		660E6F3A202B988A00216171 /* Blocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blocks.swift; sourceTree = "<group>"; };
+		66748C9B202CC0FB0093FBA7 /* Zoom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Zoom.mp3; sourceTree = "<group>"; };
+		66748CA1202CC2DF0093FBA7 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		78EF8B21703712A154F5F2F5 /* Pods-SuperPongUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperPongUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SuperPongUITests/Pods-SuperPongUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A086F27B65A811E31CF86264 /* Pods-SuperPongUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperPongUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SuperPongUITests/Pods-SuperPongUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C7BDBD97A952A73767F960F4 /* Pods-SuperPongTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperPongTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SuperPongTests/Pods-SuperPongTests.release.xcconfig"; sourceTree = "<group>"; };
+		CD16937E49F3598F94DFED36 /* Pods_SuperPongTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperPongTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8C63907A9FD22B9F01CA8E /* Pods_SuperPong.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperPong.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A224F4EA81EA62FC77E8B0CE /* Pods_SuperPong.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C34A74165A7A63B18305246C /* Pods_SuperPongTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A38EC16D2439F7CDC98CD1 /* Pods_SuperPongUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +110,8 @@
 				660E6EDC202B4D6E00216171 /* SuperPongTests */,
 				660E6EE7202B4D6E00216171 /* SuperPongUITests */,
 				660E6EC0202B4D6E00216171 /* Products */,
+				CFA2364306BB12A21E133487 /* Pods */,
+				A301C735AAC77CFCD43AA6FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,12 +128,15 @@
 		660E6EC1202B4D6E00216171 /* SuperPong */ = {
 			isa = PBXGroup;
 			children = (
+				66748C9A202CBF5D0093FBA7 /* Resources */,
 				660E6EC2202B4D6E00216171 /* AppDelegate.swift */,
-				660E6EC4202B4D6E00216171 /* GameScene.sks */,
+				66748CA1202CC2DF0093FBA7 /* GameScene.sks */,
+				660E6F3A202B988A00216171 /* Blocks.swift */,
 				660E6EC6202B4D6E00216171 /* Actions.sks */,
 				660E6EC8202B4D6E00216171 /* GameScene.swift */,
+				660E6EF6202B4FB600216171 /* MenuViewController.swift */,
 				660E6ECA202B4D6E00216171 /* GameViewController.swift */,
-				660E6ECC202B4D6E00216171 /* Main.storyboard */,
+				660E6EFA202B503B00216171 /* Main.storyboard */,
 				660E6ECF202B4D6E00216171 /* Assets.xcassets */,
 				660E6ED1202B4D6E00216171 /* LaunchScreen.storyboard */,
 				660E6ED4202B4D6E00216171 /* Info.plist */,
@@ -134,6 +162,38 @@
 			path = SuperPongUITests;
 			sourceTree = "<group>";
 		};
+		66748C9A202CBF5D0093FBA7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				660E6EFC202B507D00216171 /* LLPIXEL3.ttf */,
+				66748C9B202CC0FB0093FBA7 /* Zoom.mp3 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A301C735AAC77CFCD43AA6FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE8C63907A9FD22B9F01CA8E /* Pods_SuperPong.framework */,
+				CD16937E49F3598F94DFED36 /* Pods_SuperPongTests.framework */,
+				124C55723A7FDC5F17DC072A /* Pods_SuperPongUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFA2364306BB12A21E133487 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DD70B16F84166E218B54A27 /* Pods-SuperPong.debug.xcconfig */,
+				4B3D6DEC6861F1C2A3CA73E7 /* Pods-SuperPong.release.xcconfig */,
+				4FA8AAC47AC6C5A1820845F9 /* Pods-SuperPongTests.debug.xcconfig */,
+				C7BDBD97A952A73767F960F4 /* Pods-SuperPongTests.release.xcconfig */,
+				78EF8B21703712A154F5F2F5 /* Pods-SuperPongUITests.debug.xcconfig */,
+				A086F27B65A811E31CF86264 /* Pods-SuperPongUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 660E6EED202B4D6E00216171 /* Build configuration list for PBXNativeTarget "SuperPong" */;
 			buildPhases = (
+				FF4CC43921B3F3F82BCAA7D1 /* [CP] Check Pods Manifest.lock */,
 				660E6EBB202B4D6E00216171 /* Sources */,
 				660E6EBC202B4D6E00216171 /* Frameworks */,
 				660E6EBD202B4D6E00216171 /* Resources */,
+				71FECBB51E82DBBBB8B5C8DE /* [CP] Embed Pods Frameworks */,
+				BCDB9618D63B8D58D3F51B9A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,9 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 660E6EF0202B4D6E00216171 /* Build configuration list for PBXNativeTarget "SuperPongTests" */;
 			buildPhases = (
+				106E1887BA2F9B5004954537 /* [CP] Check Pods Manifest.lock */,
 				660E6ED5202B4D6E00216171 /* Sources */,
 				660E6ED6202B4D6E00216171 /* Frameworks */,
 				660E6ED7202B4D6E00216171 /* Resources */,
+				94AC54664F44A23198E03943 /* [CP] Embed Pods Frameworks */,
+				29972C0CDB08942FE53EE6F1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,9 +242,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 660E6EF3202B4D6E00216171 /* Build configuration list for PBXNativeTarget "SuperPongUITests" */;
 			buildPhases = (
+				27689857421FA31C0635E611 /* [CP] Check Pods Manifest.lock */,
 				660E6EE0202B4D6E00216171 /* Sources */,
 				660E6EE1202B4D6E00216171 /* Frameworks */,
 				660E6EE2202B4D6E00216171 /* Resources */,
+				5F2D2C1D32B6A22426657A6A /* [CP] Embed Pods Frameworks */,
+				890C8F6BBCC16C19072D5CA4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -241,10 +310,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				660E6ECE202B4D6E00216171 /* Main.storyboard in Resources */,
-				660E6EC5202B4D6E00216171 /* GameScene.sks in Resources */,
 				660E6ED0202B4D6E00216171 /* Assets.xcassets in Resources */,
+				660E6EFD202B507D00216171 /* LLPIXEL3.ttf in Resources */,
+				66748C9C202CC0FB0093FBA7 /* Zoom.mp3 in Resources */,
 				660E6ED3202B4D6E00216171 /* LaunchScreen.storyboard in Resources */,
+				660E6EFB202B503B00216171 /* Main.storyboard in Resources */,
+				66748CA2202CC2DF0093FBA7 /* GameScene.sks in Resources */,
 				660E6EC7202B4D6E00216171 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +336,156 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		106E1887BA2F9B5004954537 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SuperPongTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27689857421FA31C0635E611 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SuperPongUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29972C0CDB08942FE53EE6F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuperPongTests/Pods-SuperPongTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F2D2C1D32B6A22426657A6A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuperPongUITests/Pods-SuperPongUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71FECBB51E82DBBBB8B5C8DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SuperPong/Pods-SuperPong-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LBTAComponents/LBTAComponents.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LBTAComponents.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuperPong/Pods-SuperPong-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		890C8F6BBCC16C19072D5CA4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuperPongUITests/Pods-SuperPongUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94AC54664F44A23198E03943 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuperPongTests/Pods-SuperPongTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCDB9618D63B8D58D3F51B9A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuperPong/Pods-SuperPong-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF4CC43921B3F3F82BCAA7D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SuperPong-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		660E6EBB202B4D6E00216171 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -272,7 +493,9 @@
 			files = (
 				660E6EC9202B4D6E00216171 /* GameScene.swift in Sources */,
 				660E6ECB202B4D6E00216171 /* GameViewController.swift in Sources */,
+				660E6F3B202B988A00216171 /* Blocks.swift in Sources */,
 				660E6EC3202B4D6E00216171 /* AppDelegate.swift in Sources */,
+				660E6EF7202B4FB600216171 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +531,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		660E6ECC202B4D6E00216171 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				660E6ECD202B4D6E00216171 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		660E6ED1202B4D6E00216171 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -436,11 +651,13 @@
 		};
 		660E6EEE202B4D6E00216171 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DD70B16F84166E218B54A27 /* Pods-SuperPong.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 776XC27J56;
 				INFOPLIST_FILE = SuperPong/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = aplus.SuperPong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -451,11 +668,13 @@
 		};
 		660E6EEF202B4D6E00216171 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B3D6DEC6861F1C2A3CA73E7 /* Pods-SuperPong.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 776XC27J56;
 				INFOPLIST_FILE = SuperPong/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = aplus.SuperPong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -466,6 +685,7 @@
 		};
 		660E6EF1202B4D6E00216171 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FA8AAC47AC6C5A1820845F9 /* Pods-SuperPongTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -483,6 +703,7 @@
 		};
 		660E6EF2202B4D6E00216171 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7BDBD97A952A73767F960F4 /* Pods-SuperPongTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -500,6 +721,7 @@
 		};
 		660E6EF4202B4D6E00216171 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78EF8B21703712A154F5F2F5 /* Pods-SuperPongUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -516,6 +738,7 @@
 		};
 		660E6EF5202B4D6E00216171 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A086F27B65A811E31CF86264 /* Pods-SuperPongUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
